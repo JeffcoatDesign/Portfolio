@@ -1,0 +1,20 @@
+title: My GitHub Pages Site
+description: Personal site / portfolio
+
+theme: null
+
+markdown: kramdown
+
+include:
+  - _includes
+  - _layouts
+
+nav:
+  - name: Home
+    url: /
+  - name: Projects
+    url: /projects
+
+collection:
+  projects:
+    output: true
