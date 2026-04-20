@@ -11,9 +11,9 @@ include:
 
 nav:
   - name: Home
-    url: /
+    url: Portfolio/
   - name: Projects
-    url: /projects
+    url: Portfolio/projects
 
 collection:
   projects:
