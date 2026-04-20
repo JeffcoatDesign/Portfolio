@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 20pt;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: darkslategray;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-items: center;
+    background-color: #0094ff;
+    padding: 5px;
+}
+
+h1 {
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: verdana;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: verdana;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: justify;
+}
+
+table {
+    background-color: white;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: left;
+    padding: 4px;
+}
+
+header {
+    background-color: darkgrey;
+    width: inherit;
+}
