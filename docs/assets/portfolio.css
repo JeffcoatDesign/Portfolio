@@ -52,7 +52,7 @@ table {
 }
 
 header {
-    background-color: darkgrey;
+    background-color: black;
     width: inherit;
     padding: 10pt
 }
@@ -61,7 +61,6 @@ nav ul {
     list-style-type: none;
     margin: 0pt;
     padding: 0pt;
-    background-color: black;
     display: flex;
     font-family: Helvetica;
     justify-self: right;
