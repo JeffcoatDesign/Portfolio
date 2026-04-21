@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Horse Meadow
-description: A capstone project I developed as part of a talented team.
+description: A SQL-based project that demonstrates MVC architecture.
 image: /Portfolio/assets/images/HorseMeadow.png
 gitlink: https://github.com/JeffcoatDesign/HorseMeadow
 tags: [ SQL, PHP, Unity ]
