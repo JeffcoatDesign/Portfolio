@@ -40,6 +40,8 @@ p {
     font-family: verdana;
     font-size: 20px;
     text-align: justify;
+    text-indent: 40pt;
+    padding: 5pt;
 }
 
 section {
@@ -123,6 +125,8 @@ nav a {
 .card-content {
     padding: 12px;
     color: black;
+    justify-content: center;
+    max-width: 1200px;
 }
 
 .card-content h2 {
@@ -142,7 +146,6 @@ nav a {
     width: 100%;
     height: 125px;
     position: relative;
-    border-radius: 12px;
     overflow: hidden;
 }
 
@@ -162,4 +165,14 @@ nav a {
     color: white;
     background: background: linear-gradient( to top, rgba(0,0,0,0.7), rgba(0,0,0,0.0) );
     backdrop-filter: blur(6px);
+}
+
+.button {
+    display: inline-block;
+    padding: 14px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
 }
