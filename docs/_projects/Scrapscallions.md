@@ -2,7 +2,7 @@
 layout: project
 title: Scrapscallions
 description: A capstone project I developed as part of a talented team.
-image: /assets/images/scrapscallions.png
+image: /Portfolio/assets/images/scrapscallions.png
 gitlink: https://github.com/JeffcoatDesign/Scrapscallions
 ---
 
