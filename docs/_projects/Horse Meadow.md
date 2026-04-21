@@ -5,7 +5,7 @@ description: A SQL-based project that demonstrates MVC architecture.
 image: /Portfolio/assets/images/HorseMeadow.png
 gitlink: https://github.com/JeffcoatDesign/HorseMeadow
 tags: [ SQL, PHP, Unity ]
-ytlink: https://www.youtube.com/watch?v=5eSh5rx8KTo
+yturl: https://www.youtube.com/watch?v=5eSh5rx8KTo
 ---
 
 ## Overview
