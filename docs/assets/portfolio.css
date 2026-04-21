@@ -59,6 +59,7 @@ header {
 nav {
     padding: 5pt;
     margin: 5pt;
+    font-family: Helvetica;
 }
 
 nav a {
