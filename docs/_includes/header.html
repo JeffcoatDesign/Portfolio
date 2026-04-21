@@ -5,7 +5,8 @@
             {% for item in site.nav %}
             <li>
                 <a href="{{ site.baseurl }}/{{ item.url }}"
-                   class="{% if page.url == item.url or page.url contains item.url and item.url != '/' %}active{% endif %}">
+                   class="{% if page.url == item.url or page.url contains item.url and item.url != '/' %}active{% endif %}"
+                >
                     {{ item.name }}
                 </a>
             </li>
