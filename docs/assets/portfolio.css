@@ -54,6 +54,7 @@ table {
 header {
     background-color: darkgrey;
     width: inherit;
+    padding: 10pt
 }
 
 nav ul {
@@ -63,11 +64,12 @@ nav ul {
     background-color: black;
     display: flex;
     font-family: Helvetica;
+    justify-self: right;
 }
 
 nav ul a {
     text-decoration: none;
-    color: white;
+    color: black;
     display: block;
     padding: 10px 10px;
     font-size: 15pt;
@@ -75,10 +77,6 @@ nav ul a {
 
 nav ul a:hover {
     background-color: #111111;
-}
-
-nav ul a:visited {
-    color: white;
 }
 
 .project-grid {
@@ -118,12 +116,14 @@ nav ul a:visited {
 .card-content h2 {
   margin: 0;
   font-size: 18px;
+  color: black;
 }
 
 .card-content p {
   margin: 6px 0 0;
   font-size: 14px;
   opacity: 0.8;
+  color: black;
 }
 
 .title-area {
