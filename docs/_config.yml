@@ -13,7 +13,7 @@ nav:
   - name: Home
     url: 
   - name: Projects
-    url: /projects
+    url: projects
 
 baseurl: "/Portfolio"
 

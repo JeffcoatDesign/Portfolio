@@ -5,10 +5,11 @@
 </head>
 <body>
     {% include header.html %}
-
-    <h1>{{ page.title}}</h1>
-    <p>{{page.description}}</p>
-    <hr>
+    <div class="project">
+        <img src="{{ page.image }}" />
+        <h1>{{ page.title}}</h1>
+        <p>{{page.description}}</p>
+    <</div>>
     {{ content }}
 </body>
 </html>
