@@ -44,6 +44,8 @@ p {
 
 section {
     margin: 10pt;
+    max-width: 1200px;
+    justify-self: center;
 }
 
 table {
@@ -62,7 +64,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* For more pages, use space-between;*/
 }
 
 nav ul {
@@ -73,16 +75,20 @@ nav ul {
     font-family: Helvetica;
 }
 
-nav ul a {
+nav a:hover {
+    background-color: #111111;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+nav a {
     text-decoration: none;
     color: white;
     display: block;
     padding: 10px 10px;
     font-size: 15pt;
-}
-
-nav ul a:hover {
-    background-color: #111111;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.15s ease, box-shadow 0.5s ease;
 }
 
 .project-grid {

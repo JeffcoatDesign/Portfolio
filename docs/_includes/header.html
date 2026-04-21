@@ -1,16 +1,18 @@
 <header>
     <nav>
-        <h1>Jacob Jeffcoat</h1>
-        <ul>
-            {% for item in site.nav %}
-            <li>
-                <a href="{{ site.baseurl }}/{{ item.url }}"
-                   class="{% if page.url == item.url or page.url contains item.url and item.url != '/' %}active{% endif %}"
-                >
-                    {{ item.name }}
-                </a>
-            </li>
-            {% endfor %}
+        <a href="{{ site.baseurl }}"><h1>Jacob Jeffcoat</h1></a>
+        <!--<ul>
+        Useful for more pages, but I will be sticking to one main page.
+        {% for item in site.nav %}
+        <li>
+            <a href="{{ site.baseurl }}/{{ item.url }}"
+               class="{% if page.url == item.url or page.url contains item.url and item.url != '/' %}active{% endif %}"
+            >
+                {{ item.name }}
+            </a>
+        </li>
+        {% endfor %}
         </ul>
+        -->
     </nav>
 </header>
