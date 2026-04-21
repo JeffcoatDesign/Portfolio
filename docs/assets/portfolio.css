@@ -63,7 +63,6 @@ nav ul {
     background-color: black;
     display: flex;
     font-family: Helvetica;
-    display: inline-block;
 }
 
 nav ul a {
@@ -113,6 +112,7 @@ nav ul a:visited {
 
 .card-content {
     padding: 12px;
+    color: black;
 }
 
 .card-content h2 {
