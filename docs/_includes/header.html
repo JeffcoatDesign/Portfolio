@@ -1,11 +1,17 @@
 <header>
     <nav>
-        <h1>Jacob Jeffcoat</h1>
-        {% for item in site.nav %}
-            <a href="{{ site.baseurl }}/{{ item.url }}"
-               class="{% if page.url == item.url or page.url contains item.url and item.url != '/' %}active{% endif %}">
-                {{ item.name }}
-            </a>
-        {% endfor %}
+        <ul>
+            <li>
+                <h1>Jacob Jeffcoat</h1>
+            </li>
+            {% for item in site.nav %}
+                <li>
+                    <a href="{{ site.baseurl }}/{{ item.url }}"
+                        class="{% if page.url == item.url or page.url contains item.url and item.url != '/' %}active{% endif %}">
+                        {{ item.name }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
     </nav>
 </header>
