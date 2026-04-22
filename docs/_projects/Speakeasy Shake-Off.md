@@ -16,4 +16,4 @@ As the owners of a speakeasy, it is up to a team of up to five players to keep t
 ### Event Deck
 
 The Event deck is a 60 card deck of cards designed to control the game. There are 7 different types of event cards: challenges, drunks, drink orders, greedy rats, upset patrons, and spilled drinks. Challenges will permanently increase suspicion and drink orders give the players the opportunity to earn money. The rest of the events cause an increase in suspicions until they are dealt with.
-![Event Cards]("/Portfolio/assets/images/speakeasy event cards.png")
+![Event Cards](/Portfolio/assets/images/speakeasy event cards.png)
