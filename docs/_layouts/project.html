@@ -18,7 +18,7 @@
     </div>
     <section>
     {% if page.yturl %}
-        <iframe width="640" height="360" src="{{ page.yturl }}"></iframe>
+        <iframe width="560" height="315" src="{{ page.yturl }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     {% endif %}
     {{ content }}
     </section>
