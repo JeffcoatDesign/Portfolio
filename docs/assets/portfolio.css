@@ -50,12 +50,11 @@ section {
     justify-self: center;
 }
 
-table {
-    background-color: white;
-    font-family: verdana;
-    font-size: 20px;
-    text-align: left;
-    padding: 4px;
+img {
+    max-width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
 }
 
 header {
@@ -161,6 +160,7 @@ nav a {
 
 .title-area img {
     width: 100%;
+    max-width: 100%;
     height: auto;
     object-fit: cover;
 }
