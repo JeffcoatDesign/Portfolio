@@ -5,6 +5,7 @@ description: A capstone project I developed as part of a talented team.
 image: /Portfolio/assets/images/scrapscallions.png
 gitlink: https://github.com/JeffcoatDesign/Scrapscallions
 tags: [ AI, Unity ]
+yturl: https://www.youtube.com/embed/kEBjFsXFt7E?si=l8iGo5MOjQXYKXzd
 ---
 
 ## Overview
