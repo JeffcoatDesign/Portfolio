@@ -5,7 +5,7 @@ description: A fast-paced, spell-slinging gane that features procedural level ge
 image: /Portfolio/assets/images/CastForward.png
 gitlink: https://github.com/JeffcoatDesign/Cast-Forward
 tags: [ Graphs, Procedural Generation, Unity ]
-yturl: https://www.youtube.com/watch?v=CsDfHLd2knE
+yturl: https://www.youtube.com/embed/CsDfHLd2knE?si=CZYogXk__hi3H4Gs
 ---
 
 ## Overview
