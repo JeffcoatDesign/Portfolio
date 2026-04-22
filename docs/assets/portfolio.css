@@ -18,6 +18,14 @@ main {
     padding: 5px;
 }
 
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-items: center;
+    padding: 5px;
+    background-color: black;
+}
+
 h1 {
     color: white;
     text-align: center;

@@ -19,21 +19,6 @@ title: Jacob Jeffcoat
                 <p>{{ project.description }}</p>
             </div>
         </a>
-
-        {% endfor %}
-    </div>
-    <h2>Lets Connect</h2>
-    <div class="social-grid">
-        {% for item in site.social %}
-
-        <a class="card" href="{{ item.url }}">
-            <div class ="card-content">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                    <path d="{{ item.path }}"></path>
-                </svg>
-            </div>
-        </a>
-
         {% endfor %}
     </div>
 </section>
