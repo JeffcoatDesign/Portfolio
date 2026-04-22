@@ -38,10 +38,15 @@ h3 {
 p {
     color: white;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 20pt;
     text-align: justify;
     text-indent: 40pt;
     padding: 5pt;
+}
+
+ol {
+    color: white;
+    font-size: 18pt;
 }
 
 section {
@@ -197,6 +202,6 @@ nav a {
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
-.youtube {
+.center {
     text-align: center;
 }
