@@ -3,6 +3,7 @@ layout: project
 title: Scrapscallions
 description: A capstone project I developed as part of a talented team.
 image: /Portfolio/assets/images/scrapscallions.png
+playlink: https://gamejolt.com/games/Scrapscallions/993417
 gitlink: https://github.com/JeffcoatDesign/Scrapscallions
 tags: [ AI, Unity ]
 yturl: https://www.youtube.com/embed/kEBjFsXFt7E?si=l8iGo5MOjQXYKXzd
@@ -15,7 +16,7 @@ The premise for the game was that players would play as a young scavenger lookin
 
 ![Robot Customization](/Portfolio/assets/images/scrapsinventory.gif)
 
-In order to create this project, we tailored SCRUM to our needs and assigned roles based on each person's strengths. My role was centered around AI and system design, while the other two took on UI/UX and Art, respectively. While these were out focuses, we provided support to each other area as needed. I found myself debugging issues with UI/system integration and helping with technical art.
+In order to create this project, we tailored SCRUM to our needs and assigned roles based on each person's strengths. My role was centered around AI and system design, while the other two took on UI/UX and Art, respectively. While these were out focuses, we provided support to each other as needed. I found myself debugging issues with UI/system integration and helping with technical art.
 
 ![Robot Battling](/Portfolio/assets/images/scrapsbattling.gif)
 
@@ -26,7 +27,7 @@ Most of my time developing the game went towards the AI and how it would make de
 
 ![Robot Brain](/Portfolio/assets/images/robobrain.png)
 
-The following code snippets demonstrate the update loops in a kinematic component and a GOAP agent. Both act as controllers that act upon the state of the robot using their given strategies. The steering behaviors act more like a state machine and are rigidly defines, while the GOAP agent's actions are loosely defined and formed into an action plan.
+The following code snippets demonstrate the update loops in a kinematic component and a GOAP agent. Both act as controllers that act upon the state of the robot using their given strategies. The steering behaviors act more like a state machine and are rigidly defined, while the GOAP agent's actions are loosely defined and formed into an action plan.
 ``` c#
 public class CustomKinematic : Kinematic
 {
@@ -105,3 +106,5 @@ public class CustomKinematic : Kinematic
     }
 }
 ```
+
+

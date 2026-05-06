@@ -12,6 +12,9 @@
         <div class="overlay">
             <h1>{{ page.title}}</h1>
             <p>{{page.description}}</p>
+            {% if page.playlink %}
+            <a class="button" href="{{ page.playlink }}">Play</a>
+            {% endif %}
             {% if page.gitlink %}
             <a class="button" href="{{ page.gitlink }}">Github</a>
             {% endif %}
