@@ -16,13 +16,14 @@ title: Jacob Jeffcoat
             <img src="{{ project.image }}" alt="{{ project.title }}">
             <div class="card-content">
                 <h2>{{ project.title }}</h2>
-                {% if project.tags %}
-                    {% for tag in project.tags %}
-                    <span>{{tag}}</span>
-                    {% endfor %}
-                    <br>
-                {% endif %}
                 <p>{{ project.description }}</p>
+                {% if project.tags %}
+                <div class="tags">
+                    {% for tag in project.tags %}
+                    <span class="tag">{{tag}}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
         </a>
         {% endfor %}

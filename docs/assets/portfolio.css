@@ -210,3 +210,18 @@ nav a {
 .center {
     text-align: center;
 }
+
+.tags {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tag {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: rgba(0,0,0,0.1);
+    color: #333;
+}
