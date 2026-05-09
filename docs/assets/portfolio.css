@@ -228,7 +228,7 @@ nav a {
 
 .game-container {
     width: 100%;
-    max-width: 960px;
+    height: 800px;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 12px;
@@ -236,7 +236,7 @@ nav a {
 
 .game-container iframe {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    height: 100%;
     border: none;
     display: block;
     overflow: hidden;
