@@ -227,14 +227,17 @@ nav a {
 }
 
 .game-container {
-    position: relative;
     width: 100%;
     max-width: 960px;
-    margin: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
 .game-container iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
     border: none;
+    display: block;
+    overflow: hidden;
 }
