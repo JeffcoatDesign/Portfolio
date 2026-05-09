@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Ham-Fisted
-description: A multiplayer game designed with careful iteration.
+description: A multiplayer fighting game built by a team of 2 developers.
 image: /Portfolio/assets/images/ham-fisted.png
 gitlink: https://github.com/JeffcoatDesign/Ham-Fisted-2.0
 webgllink: https://jeffcoatdesign.github.io/Ham-Fisted-2.0/
