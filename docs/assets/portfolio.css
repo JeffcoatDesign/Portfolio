@@ -232,6 +232,7 @@ nav a {
     margin: 0 auto;
     overflow: hidden;
     border-radius: 12px;
+    background-color: white;
 }
 
 .game-container iframe {
