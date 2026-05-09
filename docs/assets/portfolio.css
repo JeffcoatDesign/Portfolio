@@ -225,3 +225,16 @@ nav a {
     background: rgba(0,0,0,0.1);
     color: #333;
 }
+
+.game-container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
+
+.game-container iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+}

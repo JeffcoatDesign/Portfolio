@@ -3,8 +3,8 @@ layout: project
 title: Ham-Fisted
 description: A multiplayer game designed with careful iteration.
 image: /Portfolio/assets/images/ham-fisted.png
-playlink: https://jeffcoatdesign.github.io/Ham-Fisted-2.0/
 gitlink: https://github.com/JeffcoatDesign/Ham-Fisted-2.0
+webgllink: https://jeffcoatdesign.github.io/Ham-Fisted-2.0/
 tags: [ Multiplayer, Steam, Unity ]
 ---
 

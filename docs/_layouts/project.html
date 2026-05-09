@@ -26,6 +26,17 @@
             <iframe width="560" height="315" src="{{ page.yturl }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         {% endif %}
+        {% if page.webgllink %}
+        <div class="game-container">
+            <iframe 
+                src="{{ page.webgllink }}"
+                width="960"
+                height="600"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </div>
+        {% endif %}
         {{ content }}
     </section>
     {% include footer.html %}
