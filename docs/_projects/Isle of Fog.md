@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Isle of Fog
-description: A puzzle game.
+description: An atmospheric, adventure/puzzle game I co-developed.
 image: /Portfolio/assets/images/isleoffog.png
 gitlink: https://github.com/hammone2/CS225-Unity
 webgllink: https://hammone2.github.io/CS225-Unity/

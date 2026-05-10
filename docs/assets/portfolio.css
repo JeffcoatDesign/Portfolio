@@ -54,6 +54,11 @@ ol {
     font-size: 18pt;
 }
 
+ul {
+    color: white;
+    font-size: 18pt;
+}
+
 section {
     margin: 10pt;
     max-width: 1200px;
@@ -218,7 +223,7 @@ nav a {
     gap: 6px;
 }
 
-.tag {
+.tag { 
     font-size: 12px;
     padding: 4px 8px;
     border-radius: 999px;
