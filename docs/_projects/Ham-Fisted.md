@@ -9,14 +9,25 @@ tags: [ Multiplayer, Steam, Unity ]
 ---
 
 ## Overview
-Ham-Fisted is an online multiplayer game where hamsters battle it out to see who comes out on top, inspired by the likes of Sega's Super Monkey Ball and Nintendo's Super Smash Bros. It features Steam integration, combined split-screen and online multiplayer, and robust controller integration. The Unity game was created in collaboration with one other as part of a school project, which it has since outgrown. I have been the main developer since the original project wrapped up, using it to develop my production skills.
+Ham-Fisted is an online multiplayer game where hamsters battle it out to see who comes out on top, inspired by the likes of Sega's Super Monkey Ball and Nintendo's Super Smash Bros. It has seen 3 large iterations which are the basic prototype, a split-screen demo (above), and the commercial version (coming to Steam). The game has been improved with careful iteration powered by agile principles.
 
-During Ham-Fisted's development, I used numerous tools to perform every function necessary to create a game. The 3D modeling and animation was all created in Autodesk Maya, with the UV-unwrapping for the hamsters performed inside of Headus UVLayout. The UI and many of the object textures were created in Adobe Photoshop and Illustrator. The remaining textures were painted in Substance Painter. The code was developed in Visual Studio with Copilot disabled, so I could focus on expanding my knowledge of C# and Unity. For version control, I used GitHub, Git, and GitHub desktop.
-
-For a commercial version of the game, I wanted to have a scalable, low-cost way to connect players for online multiplayer. I found that by integrating Steamworks, I could use Valve's servers to connect players peer-to-peer. This was perfect, as the only financial cost was the one-time purchase of a Steam page. It did restrict my game from other marketplaces, however I had already planned on only releasing on Steam. Steamworks offered many advantages to the project that I believe any modern PC game must implement for a superior user experience.
-
-As I developed the game, I encountered numerous programming challenges and overcame them to build each and every feature. One of my most difficult hurdles was integrating split-screen with online multiplayer. Each player needed to be created at the start of each round, and their properties needed to be synchronized. My solution was a data-oriented approach, where a data object is created for each player that joins and is later used to create a playable hamster at the start of the game. Another issue had to do with the hamsters themselves. Originally, the hamsters were static and lifeless, which made it difficult for players to connect with them. To fix this I created an animation rig for them and animated them idling, walking, running, sitting discombobulated, and celebrating. Still this wasn't enough, they still felt disconnected from the action, so I created an adaptive animation blending system to allow them to react to being hit. This had a tremendous result, making the hamsters feel like an actual part of the world.
+### Concepts
+The latest iteration
+- Online/splitscreen multiplayer
+- Server authority
+- Client prediction
+- Controller support
+- Steamworks API integration
 
 ![Improved Hit Animations](/Portfolio/assets/images/better hit.gif)
 
-Currently my GitHub displays two public versions of the game, while I keep the commercial version private. These two versions are programmed at a lesser skill level than what I can do today. However, they display my growth as a developer and can give some idea as to where the latest version stands today. I can also say that I have learned many concepts such as the SOLID principles and iterative design.
+### Tools
+I have done everything from programming to art and design. The tools that I have used include:
+- Unity 3D
+- Visual Studio
+- Git and GitHub
+- Headus UV Layout
+- Autodesk Maya
+- Adobe Photoshop
+- Adobe Illustrator
+- Adobe Substance Painter
