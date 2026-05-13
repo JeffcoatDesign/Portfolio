@@ -29,15 +29,18 @@ h1 {
 }
 
 h2 {
+    margin-top: 10pt;
     color: white;
     font-family: verdana;
     text-align: center;
 }
 
 h3 {
+    margin-top: 10pt;
     color: white;
     font-family: verdana;
     text-align: center;
+    font-size: 24pt;
 }
 
 p {
