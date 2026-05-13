@@ -12,7 +12,7 @@ tags: [ Multiplayer, Steam, Unity ]
 Ham-Fisted is an online multiplayer game where hamsters battle it out to see who comes out on top, inspired by the likes of Sega's Super Monkey Ball and Nintendo's Super Smash Bros. It has seen 3 large iterations which are the basic prototype, a split-screen demo (above), and the commercial version (coming to Steam). The game has been improved with careful iteration powered by agile principles.
 
 ### Concepts
-The latest iteration
+The latest iteration includes:
 - Online/splitscreen multiplayer
 - Server authority
 - Client prediction
