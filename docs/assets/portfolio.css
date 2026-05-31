@@ -21,6 +21,8 @@ main {
 footer {
     padding: 5px;
     background-color: black;
+    position: absolute;
+    bottom: 0;
 }
 
 h1 {
