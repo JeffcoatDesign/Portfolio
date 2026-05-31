@@ -8,6 +8,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: darkslategray;
+    flex-grow: 1;
 }
 
 main {
@@ -86,6 +87,7 @@ header {
 
 nav {
     display: flex;
+    flex-grow: 0;
     justify-content: center; /* For more pages, use space-between;*/
 }
 
