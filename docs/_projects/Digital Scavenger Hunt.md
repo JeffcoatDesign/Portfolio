@@ -2,7 +2,7 @@
 layout: project
 title: Digital Scavenger Hunt
 description: A Discord application built to host a scavenger hunt competition.
-image: /Portfolio/assets/images/ScavengerHunt.png
+image: /Portfolio/assets/images/Digital Scavenger Hunt.png
 gitlink: 
 playlink: 
 tags: [ C#, Discord API ]
