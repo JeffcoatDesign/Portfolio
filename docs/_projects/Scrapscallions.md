@@ -7,6 +7,7 @@ playlink: https://gamejolt.com/games/Scrapscallions/993417
 gitlink: https://github.com/JeffcoatDesign/Scrapscallions
 tags: [ AI, Unity ]
 yturl: https://www.youtube.com/embed/kEBjFsXFt7E?si=l8iGo5MOjQXYKXzd
+order: 2
 ---
 
 ## Overview

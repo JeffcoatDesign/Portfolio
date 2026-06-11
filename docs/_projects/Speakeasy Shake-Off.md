@@ -4,6 +4,7 @@ title: Speakeasy Shake-Off
 description: A board game where players have to keep a speakeasy secret and profitable.
 image: /Portfolio/assets/images/speakeasy.png
 tags: [ Tabletop ]
+order: 5
 ---
 
 ## Overview

@@ -10,7 +10,9 @@ title: Jacob Jeffcoat
     <br>
     <h2>Projects</h2>
     <div class="project-grid">
-        {% for project in site.projects %}
+        {% assign sorted_projects = site.porjects | sort: "order" %}
+
+        {% for project in sorted_projects %}
 
         <a class="card" href="{{ site.baseurl }}{{ project.url }}">
             <img src="{{ project.image }}" alt="{{ project.title }}">
