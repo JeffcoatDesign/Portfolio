@@ -1,13 +1,13 @@
 ---
 layout: project
 title: Cast Forward
-description: A fast-paced, spell-slinging game that features procedural level generation.
+description: A interactive that boasts a dynamic procedural generation system and graph traversal.
 image: /Portfolio/assets/images/CastForward.png
 gitlink: https://github.com/JeffcoatDesign/Cast-Forward
 playlink: https://jeffcoatdesign.github.io/Cast-Forward/
 tags: [ Graphs, Procedural Generation, Unity ]
 yturl: https://www.youtube.com/embed/CsDfHLd2knE?si=CZYogXk__hi3H4Gs
-order: 4
+order: 2
 ---
 
 ## Overview

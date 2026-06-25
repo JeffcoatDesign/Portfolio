@@ -1,13 +1,13 @@
 ---
 layout: project
 title: Scrapscallions
-description: A capstone project I developed as part of a talented team.
+description: A team capstone project I developed with an emphasis on GOAP.
 image: /Portfolio/assets/images/scrapscallions.png
 playlink: https://gamejolt.com/games/Scrapscallions/993417
 gitlink: https://github.com/JeffcoatDesign/Scrapscallions
-tags: [ AI, Unity ]
+tags: [ GOAP, Unity ]
 yturl: https://www.youtube.com/embed/kEBjFsXFt7E?si=l8iGo5MOjQXYKXzd
-order: 2
+order: 1
 ---
 
 ## Overview
