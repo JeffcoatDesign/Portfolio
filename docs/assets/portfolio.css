@@ -267,6 +267,7 @@ nav a {
 }
 
 .skill-list {
+    margin-top: 6pt;
     display: flex;
     flex-wrap: wrap;
     gap: 8pt;
