@@ -10,11 +10,9 @@ order: 7
 ---
 
 ## Overview
-Isle of Fog is a game where players explore a frozen island and solve puzzles. The game was co-developed my one other developer beside myself. It features clean code which demonstrates our collaborative software engineering abilities.
+Isle of Fog is a project co-developed my one other developer beside myself. It features clean code which demonstrates our collaborative software engineering abilities.
 
 My contributions:
-* Save System
-* Interactable Objects System
-* Designer-Friendly Puzzle Buttons
-* Spinning Totems
+* Application State Serialization System
+* View-based Object Interaction System
 * Project Documentation
