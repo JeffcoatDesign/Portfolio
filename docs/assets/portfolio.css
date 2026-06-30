@@ -35,6 +35,7 @@ h1 {
 
 h2 {
     margin-top: 10pt;
+    margin-bottom: 5pt;
     color: white;
     font-family: verdana;
     text-align: center;
@@ -178,6 +179,11 @@ nav a {
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
+}
+
+.carousel .card {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 
 .card {
