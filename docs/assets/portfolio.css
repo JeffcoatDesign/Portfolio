@@ -23,9 +23,7 @@ main {
 footer {
     padding: 5px;
     background-color: black;
-    flex-grow: 0;
-    flex-shrink: 0;
-    min-width: 100%;
+    max-width: 100%;
 }
 
 h1 {
