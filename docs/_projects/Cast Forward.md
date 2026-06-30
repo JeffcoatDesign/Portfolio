@@ -16,6 +16,8 @@ Cast Forward is a project that I created with the intention of learning more abo
 ### Procedural Level Generation w/ A*
 Development for Cast Forward started with a hexagonal, grid-based level generation system. I chose to use hexagons knowing that they would pack together nicely while allowing more degrees of movement between cells. The level generator starts by generating a grid and selecting different points to connect. Those points are fed into a Delaunay triangulation algorithm implementation, where it finds the minimum spanning tree of those points. With that tree, the generator uses A* to generate paths between the selected points. Finally every point within the network is assigned a room tile. The furthest two points being the start and end of the level.
 
+![Finding the Minimum Spanning Tree](/Portfolio/assets/images/mst.gif)
+
 The process is:
 1. Create a hexagonal grid.
 2. Add noise to disincentivize A* from going through certain hexes and add randomness.
