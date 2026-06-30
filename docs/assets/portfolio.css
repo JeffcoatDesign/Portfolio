@@ -183,24 +183,6 @@ nav a {
     scroll-snap-align: start;
     scroll-snap-stop: always;
     width: 95%;
-    &::scroll-marker {
-        display: block;
-        content: " ";
-        aspect-ratio: 1;
-        width: 24px;
-        border-radius: 50%;
-        border: 1px solid silver;
-        cursor: pointer;
-        background: transparent;
-        justify-content: center;
-        transition: background 0.5s ease-out;
-    }                
-    &::scroll-marker:where(:hover, :active, :focus) {
-        background: lightgray;
-    }
-    &::scroll-marker:target-current {
-        background: white;
-    }
 }
 
 .card {
