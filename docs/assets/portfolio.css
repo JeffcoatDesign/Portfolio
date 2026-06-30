@@ -160,6 +160,26 @@ nav a {
     margin-top: 20px;
 }
 
+.carousel {
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.carousel div {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.carousel img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
 .card {
     display: block;
     background-color: white;
