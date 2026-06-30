@@ -184,6 +184,7 @@ nav a {
 .carousel .card {
     scroll-snap-align: start;
     scroll-snap-stop: always;
+    width: 95%;
 }
 
 .card {
