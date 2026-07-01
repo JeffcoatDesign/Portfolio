@@ -3,6 +3,9 @@
     margin: 0;
     font-family: Helvetica;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 body {
     justify-self: center;
@@ -10,7 +13,7 @@ body {
     background-size: cover;
     background-color: #151b1b;
     flex-grow: 1;
-    height: 100%;
+    width: 100%;
 }
 
 main {
