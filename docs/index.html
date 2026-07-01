@@ -51,9 +51,14 @@ title: Jacob Jeffcoat
         function showImg() {
             if (idx >= imgs.length) idx = 0;
             if (idx < 0) idx = imgs.length - 1;
-            imgs[idx].scrollIntoView({
-                behavior: "smooth",
-                inline: "start"
+            const card = imgs[idx];
+            const left =
+                card.offsetLeft -
+                (wrap.clientWidth - card.clientWidth) / 2;
+
+            wrap.scrollTo({
+                left,
+                behavior: "smooth"
             });
         }
         next.addEventListener('click', () => {
