@@ -52,8 +52,8 @@ title: Jacob Jeffcoat
             if (idx >= imgs.length) idx = 0;
             if (idx < 0) idx = imgs.length - 1;
             imgs[idx].scrollIntoView({
-                behavior: smooth,
-                inline: start
+                behavior: "smooth",
+                inline: "start"
             });
         }
         next.addEventListener('click', () => {
