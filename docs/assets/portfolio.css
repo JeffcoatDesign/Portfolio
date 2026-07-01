@@ -158,6 +158,33 @@ nav a {
     margin-top: 20px;
 }
 
+.carousel-container {
+    justify-self: center;
+    max-width: 1000px;
+    position: relative;
+}
+
+.carousel-container .btn {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-container .prev {
+    left: 10px;
+}
+
+.carousel-container .next {
+    right: 10px;
+}
+
 .carousel {
     display: grid;
     grid-auto-columns: 100%;
@@ -167,8 +194,8 @@ nav a {
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
     scroll-behavior: smooth;
-    scroll-marker-group: after;
 }
+
 .carousel div {
     scroll-snap-align: center;
     scroll-snap-stop: always;

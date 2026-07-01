@@ -18,27 +18,56 @@ title: Jacob Jeffcoat
     <br>
     <!-- Projects -->
     <h2>Projects</h2>
-    <div class="carousel">
-        {% assign sorted_projects = site.projects | sort: "order" %}
+    <div class="carousel-container">
+        <div class="carousel">
+            {% assign sorted_projects = site.projects | sort: "order" %}
 
-        {% for project in sorted_projects %}
-
-        <a class="card" href="{{ site.baseurl }}{{ project.url }}">
-            <img src="{{ project.image }}" alt="{{ project.title }}">
-            <div class="card-content">
-                <h2>{{ project.title }}</h2>
-                <p>{{ project.description }}</p>
-                {% if project.tags %}
-                <div class="tags">
-                    {% for tag in project.tags %}
-                    <span class="tag">{{tag}}</span>
-                    {% endfor %}
+            {% for project in sorted_projects %}
+            <a class="card" href="{{ site.baseurl }}{{ project.url }}">
+                <img src="{{ project.image }}" alt="{{ project.title }}">
+                <div class="card-content">
+                    <h2>{{ project.title }}</h2>
+                    <p>{{ project.description }}</p>
+                    {% if project.tags %}
+                    <div class="tags">
+                        {% for tag in project.tags %}
+                        <span class="tag">{{tag}}</span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
                 </div>
-                {% endif %}
-            </div>
-        </a>
-        {% endfor %}
+            </a>
+            {% endfor %}
+        </div>
+        <button class="btn prev">‹</button>
+        <button class="btn next">›</button>
     </div>
+    <script>
+        const prev = document.querySelector('.prev');
+        const next = document.querySelector('.next');
+        const wrap = document.querySelector('.carousel');
+        const card = document.querySelector('.carousel .card');
+        let idx = 0;
+        function showImg() {
+            if (idx >= imgs.length) idx = 0;
+            if (idx) idx = imgs.length - 1;
+            wrap.style.transform = `translateX(-${idx * 100}%)`;
+        }
+        next.addEventListener('click', () => {
+            idx++;
+            showImg();
+        });
+
+        prev.addEventListener('click', () => {
+            idx--;
+            showImg();
+        });
+        setInterval(() => {
+            idx++;
+            showImg();
+        }, 3000);
+        showImg();
+    </script>
     <br>
     <!-- Skills -->
     <h2>Skills</h2>
