@@ -46,11 +46,11 @@ title: Jacob Jeffcoat
         const prev = document.querySelector('.prev');
         const next = document.querySelector('.next');
         const wrap = document.querySelector('.carousel');
-        const card = document.querySelector('.carousel .card');
+        const imgs = document.querySelectorAll('.carousel .card');
         let idx = 0;
         function showImg() {
             if (idx >= imgs.length) idx = 0;
-            if (idx) idx = imgs.length - 1;
+            if (idx < 0) idx = imgs.length - 1;
             wrap.style.transform = `translateX(-${idx * 100}%)`;
         }
         next.addEventListener('click', () => {
