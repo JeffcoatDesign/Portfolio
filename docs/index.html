@@ -51,7 +51,10 @@ title: Jacob Jeffcoat
         function showImg() {
             if (idx >= imgs.length) idx = 0;
             if (idx < 0) idx = imgs.length - 1;
-            wrap.style.transform = `translateX(-${idx * 100}%)`;
+            imgs[idx].scrollIntoView({
+                behavior: smooth,
+                inline: start
+            });
         }
         next.addEventListener('click', () => {
             idx++;
