@@ -8,7 +8,6 @@
 }
 
 body {
-    justify-self: center;
     background-attachment: fixed;
     background-size: cover;
     background-color: #151b1b;
@@ -72,8 +71,6 @@ ul {
 
 section {
     margin: 10pt;
-    max-width: 1200px;
-    justify-self: center;
 }
 
 img {
@@ -198,7 +195,7 @@ nav a {
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
     scroll-behavior: smooth;
-    scroll-padding-left: 2.5%;
+    justify-items: center;
 }
 
 .carousel div {
@@ -212,7 +209,7 @@ nav a {
 }
 
 .carousel .card {
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     scroll-snap-stop: always;
     width: 95%;
 }
@@ -347,6 +344,7 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     gap: 8pt;
+    justify-content: center;
 }
 
 .skill-list span {
