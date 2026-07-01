@@ -5,6 +5,7 @@
 }
 
 body {
+    justify-self: center;
     background-attachment: fixed;
     background-size: cover;
     background-color: #151b1b;
@@ -194,6 +195,7 @@ nav a {
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
     scroll-behavior: smooth;
+    scroll-padding-left: 2.5%;
 }
 
 .carousel div {
